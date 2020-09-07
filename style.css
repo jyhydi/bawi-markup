@@ -1,0 +1,153 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+body{
+    margin:0px; 
+    line-height:1.5;
+}
+.main{
+    display:flex;
+    justify-content:center;
+}
+.mainholder{
+    margin-top:10px;
+}
+
+li {
+    list-style-type: none;
+}
+#top{
+    background-color : #ccccc0;
+    height:65px;
+}
+.toplinks{
+    display:flex;
+    background-color: midnightblue;
+    padding-left:5px;
+    white-space: nowrap;
+    margin:0px;
+    height:25px;
+}
+
+.top_link{
+    color:white;
+    text-decoration: none;
+    display:inline-block;
+    list-style-type: none;
+    white-space:nowrap;
+    margin-left:5px;
+}
+.separator{
+    width:80%;
+    list-style-type: none;
+}
+.user{
+    display:table-cell;
+    text-align:right;
+    color:white;
+    list-style-type:none;
+    white-space:nowrap;
+}
+.logo{
+    display:flex;
+    align-items:center;
+}
+.mheader{
+    text-align:center;
+    height:19px;
+    padding:2px;
+    background-color:black;
+    color:white;
+    font-size:13px;
+    border: dotted 0.3px;
+}
+.mmain{
+    display: flex;
+    flex-direction:row;
+    
+}
+.mleft{
+    padding:8px;
+    width: 207px;
+    height: 910px;
+    border:dotted 0.3px;
+    background-color:#fafafa;
+}
+.mmiddle{
+    padding:8px;
+    width: 382px;
+    border: dotted 0.3px;
+}
+.mright{
+    padding:8px;
+    width: 209px;
+    height: 910px;
+    border: dotted 0.3px;
+    background-color:#fafafa;
+}
+.mfooter{
+    text-align:center;
+    height:19px;
+    padding:2px;
+    font-size:13px;
+    border: dotted 0.3px;
+}
+.sbox{
+    
+    padding-bottom:5px;
+    font-size: 13px;
+}
+hr{
+    width: 100%;
+    border-width: 1px;
+    margin-top: 6.5px;
+    margin-bottom: 6.5px;
+    
+}
+h4{
+    font-size:14px;
+    display:inline;
+}
+#bbox{
+    font-size:14px;
+    font-weight:bold;
+    line-height:1.5;
+}
+.mbox1{
+    font-size:13px;
+    padding:5px;
+}
+#notice{
+    background-color: #ffc;
+    border: 1px dotted #fc0;
+}
+#announce{
+    background-color: #eff;
+    border: 1px dotted #333;
+}
+.hot_article{
+    font-size:13px;
+    padding:0px;
+}
+.art_user{
+    display:block;
+    text-align:right;
+
+}
+.pcat{
+    float:left;
+    border: solid 1px;
+    margin-right:5px;
+}
+.footer{
+    display:flex;
+
+    justify-content:center;
+}
+.flist{
+    font-size:90%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: lightgrey 0.5px solid; 
+}
